@@ -8,6 +8,10 @@ namespace MultiplesOf3And5
 {
     class Program
     {
+        /* Project-euler problem 1
+         * This program adds up the intergers divisible by 3 and 5
+         * between 1 and 1000 and outputs the sum
+         */
         static void Main(string[] args)
         {
             int sum = 0;
@@ -18,6 +22,7 @@ namespace MultiplesOf3And5
                     sum += i;
                 }
             }
+            // Outputs 233168
             Console.WriteLine(sum);
         }
     }
